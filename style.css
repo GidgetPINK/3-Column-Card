@@ -59,12 +59,16 @@ Main Styles
     margin: 500px auto;
 }
 
+/*=============
+Card One Styles
+===============*/
+
 .card-one{
     background: hsl(31, 77%, 52%);
     width: 300px;
     height: 500px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
 }
 
 .card-one img{
@@ -83,7 +87,7 @@ Main Styles
     color: hsla(0, 0%, 100%, 0.75);
     margin: 0px 0px 40px 40px;
     line-height: 1.6;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 .card-one button{
@@ -93,7 +97,7 @@ Main Styles
     padding: 15px 40px; 
     border-radius: 35px;
     color: hsl(31, 77%, 52%);
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 .card-one button:hover{
@@ -102,6 +106,10 @@ Main Styles
     border-color: hsl(0, 0%, 95%);
     border-style: solid;
 }
+
+/*=============
+Card Two Styles
+===============*/
 
 .card-two{
     background: hsl(184, 100%, 22%);
@@ -125,7 +133,7 @@ Main Styles
     color: hsla(0, 0%, 100%, 0.75);
     margin: 0px 0px 40px 40px;
     line-height: 1.6;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 .card-two button{
@@ -134,7 +142,7 @@ Main Styles
     margin: 50px 25px 40px 40px; 
     padding: 15px 40px; 
     border-radius: 35px;
-    font-size: 15px;
+    font-size: 0.938rem;
     color: hsl(184, 100%, 22%);
 }
 
@@ -144,6 +152,10 @@ Main Styles
     border-color: hsl(0, 0%, 95%);
     border-style: solid;
 }
+
+/*=============
+Card Three Styles
+===============*/
 
 .card-three{
     background: hsl(179, 100%, 13%);
@@ -169,7 +181,7 @@ Main Styles
     color: hsla(0, 0%, 100%, 0.75);
     margin: 0px 0px 40px 40px;
     line-height: 1.6;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 .card-three button{
@@ -178,7 +190,7 @@ Main Styles
     margin: 50px 25px 40px 40px; 
     padding: 15px 40px; 
     border-radius: 35px;
-    font-size: 15px;
+    font-size: 0.938rem;
     color: hsl(179, 100%, 13%);
 }
 
