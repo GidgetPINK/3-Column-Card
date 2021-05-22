@@ -188,3 +188,27 @@ Main Styles
     border-color: hsl(0, 0%, 95%);
     border-style: solid;
 }
+
+/*==============
+Media Queries
+================*/
+
+@media only screen and (max-width: 768px) {
+    .card-columns {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .card-three {
+        border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+
+    .card-one {
+        border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    }
+    }
+}
