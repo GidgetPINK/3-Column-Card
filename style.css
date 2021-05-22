@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*===============
+Main Styles
+=================*/
+
+.card-columns {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    align-content: center;
+    margin: 500px auto;
+}
+
+/*=============
+Card One Styles
+===============*/
+
+.card-one{
+    background: hsl(31, 77%, 52%);
+    width: 300px;
+    height: 500px;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+}
+
+.card-one img{
+    margin: 50px 25px 40px 40px; 
+}
+
+.card-one h2{
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 0px 25px 40px 40px;
+    color: hsl(0, 0%, 95%);
+}
+
+.card-one p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0px 0px 40px 40px;
+    line-height: 1.6;
+    font-size: 0.938rem;
+}
+
+.card-one button{
+    background: hsl(0, 0%, 95%);
+    border: none;
+    margin: 50px 25px 40px 40px; 
+    padding: 15px 40px; 
+    border-radius: 35px;
+    color: hsl(31, 77%, 52%);
+    font-size: 0.938rem;
+}
+
+.card-one button:hover{
+    background: none;
+    color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+}
+
+/*=============
+Card Two Styles
+===============*/
+
+.card-two{
+    background: hsl(184, 100%, 22%);
+    width: 300px;
+    height: 500px;
+}
+
+.card-two img{
+    margin: 50px 25px 40px 40px; 
+}
+
+.card-two h2{
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin: 0px 25px 40px 40px;
+}
+
+.card-two p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0px 0px 40px 40px;
+    line-height: 1.6;
+    font-size: 0.938rem;
+}
+
+.card-two button{
+    background: hsl(0, 0%, 95%);
+    border: none;
+    margin: 50px 25px 40px 40px; 
+    padding: 15px 40px; 
+    border-radius: 35px;
+    font-size: 0.938rem;
+    color: hsl(184, 100%, 22%);
+}
+
+.card-two button:hover{
+    background: none;
+    color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+}
+
+/*=============
+Card Three Styles
+===============*/
+
+.card-three{
+    background: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-three img{
+    margin: 50px 25px 40px 40px; 
+}
+
+.card-three h2{
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin: 0px 25px 40px 40px;
+}
+
+.card-three p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0px 0px 40px 40px;
+    line-height: 1.6;
+    font-size: 0.938rem;
+}
+
+.card-three button{
+    background: hsl(0, 0%, 95%);
+    border: none;
+    margin: 50px 25px 40px 40px; 
+    padding: 15px 40px; 
+    border-radius: 35px;
+    font-size: 0.938rem;
+    color: hsl(179, 100%, 13%);
+}
+
+.card-three button:hover{
+    background: none;
+    color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+}
+
+/*==============
+Media Queries
+================*/
+
+@media only screen and (max-width: 768px) {
+    .card-columns {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .card-three {
+        border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+
+    .card-one {
+        border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    }
+    }
+}
