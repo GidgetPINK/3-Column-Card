@@ -47,3 +47,71 @@ table {
 	border-spacing: 0;
 }
 
+/*===============
+Main Styles
+=================*/
+
+.card-columns {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    align-content: center;
+    margin: 500px auto;
+}
+
+.card-one{
+    background: hsl(31, 77%, 52%);
+    width: 300px;
+    height: 500px;
+}
+
+.card-one h2{
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    margin: 140px 25px 40px 40px;
+}
+
+.card-one p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0px 0px 40px 40px;
+}
+
+.card-two{
+    background: hsl(184, 100%, 22%);
+    width: 300px;
+    height: 500px;
+}
+
+.card-two h2{
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    margin: 140px 25px 40px 40px;
+}
+
+.card-two p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0px 0px 40px 40px;
+}
+
+.card-three{
+    background: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 500px;
+}
+
+.card-three h2{
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    margin: 140px 25px 40px 40px;
+}
+
+.card-three p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0px 0px 40px 40px;
+}
